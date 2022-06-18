@@ -19,3 +19,26 @@ img{width: 400px;
 hi {
     color: red;
 }
+header {
+    font-family: 'Pacifico';
+    color: white;
+    animation: neon 5s infinite;
+    font-size: 50px;
+    
+}
+@keyframes neon {
+    0%, 39%, 41%, 59%, 61%, 100% {
+        text-shadow: 
+        white 0 0 12px,
+        #ff3aad 0 0 24px,
+        #ff3aad 0 0 36px;
+
+    }
+    40%, 60% {
+        text-shadow: none;
+    }
+
+}
+body {
+    background-color: black;
+}
